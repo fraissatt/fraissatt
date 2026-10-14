@@ -59,8 +59,8 @@ SVG labels are bilingual and short (for example "Repositórios · Repositories")
 3. Experience / Experiência: short timeline 2024 to 2026 (Integra Engenharia de Sistemas, Instituto SENAI de
    Tecnologia em Automação, Centro de Metrologia SENAI ZEISS, ZEISS IQS).
 4. Stack: badges for Java/Spring Boot, TypeScript/Angular, C#, Dart, PostgreSQL, Git/GitHub, AWS.
-5. Featured projects / Projetos em destaque: `metas-app` (with deploy link), `CEM-Senai-Zeiss`, `Site-Senai`,
-   `cadastro-alunos`. One-sentence descriptions are drafts for the user to review.
+5. Featured projects / Projetos em destaque: only PUBLIC repos: `metas-app` (with deploy link), `CEM-Senai-Zeiss`,
+   `boas-praticas-software`. One-sentence descriptions are drafts for the user to review.
 6. Statistics / Estatísticas: the two generated SVGs.
 7. Contact / Contato: LinkedIn and Lattes.
 

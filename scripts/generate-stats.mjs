@@ -44,7 +44,8 @@ export async function loadFromApi({ fetchImpl = fetch, token, login = LOGIN }) {
       `${API}/users/${login}/repos?per_page=100&type=owner&page=${page}`,
       token,
     );
-    repos.push(...batch);
+    // A personal token also lists private repos; the public SVGs must never count them.
+    repos.push(...batch.filter((repo) => !repo.private));
     if (batch.length < 100) break;
   }
   for (const repo of repos) {

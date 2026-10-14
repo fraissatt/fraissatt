@@ -43,8 +43,7 @@
 |---|---|---|
 | 🥇 | [metas-app](https://github.com/fraissatt/metas-app) | TypeScript web application · [demo](https://metas-app-flax.vercel.app) |
 | 🥈 | [CEM-Senai-Zeiss](https://github.com/fraissatt/CEM-Senai-Zeiss) | JavaScript project tied to the SENAI ZEISS Metrology Center |
-| 🥉 | [Site-Senai](https://github.com/fraissatt/Site-Senai) | Management site for companies, users, scheduling and documents |
-| P4 | [cadastro-alunos](https://github.com/fraissatt/cadastro-alunos) | Student registration system built with Angular |
+| 🥉 | [boas-praticas-software](https://github.com/fraissatt/boas-praticas-software) | Java project on software development best practices |
 
 ## ⏱️ Telemetry — Statistics
 

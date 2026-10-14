@@ -63,3 +63,20 @@ test('pagination collects every page of repositories', async () => {
   const data = await loadFromApi({ fetchImpl: paged });
   assert.equal(data.repos.length, 101);
 });
+
+test('private repositories are excluded and never queried for languages', async () => {
+  const seen = [];
+  const mixed = async (url) => {
+    seen.push(url);
+    if (url.includes('/repos?')) {
+      return { ok: true, status: 200, json: async () => [
+        { name: 'pub', stargazers_count: 1, fork: false, private: false },
+        { name: 'secret', stargazers_count: 9, fork: false, private: true },
+      ] };
+    }
+    return okFetch(url);
+  };
+  const data = await loadFromApi({ fetchImpl: mixed });
+  assert.deepEqual(data.repos.map((r) => r.name), ['pub']);
+  assert.ok(!seen.some((u) => u.includes('/secret/')), 'queried a private repo');
+});

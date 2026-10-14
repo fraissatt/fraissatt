@@ -43,8 +43,7 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 |---|---|---|
 | 🥇 | [metas-app](https://github.com/fraissatt/metas-app) | Aplicação web em TypeScript · [demo](https://metas-app-flax.vercel.app) |
 | 🥈 | [CEM-Senai-Zeiss](https://github.com/fraissatt/CEM-Senai-Zeiss) | Projeto em JavaScript ligado ao Centro de Metrologia SENAI ZEISS |
-| 🥉 | [Site-Senai](https://github.com/fraissatt/Site-Senai) | Site de gestão de empresas, usuários, agendamentos e documentos |
-| P4 | [cadastro-alunos](https://github.com/fraissatt/cadastro-alunos) | Sistema de cadastro de alunos com Angular |
+| 🥉 | [boas-praticas-software](https://github.com/fraissatt/boas-praticas-software) | Projeto em Java sobre boas práticas de desenvolvimento de software |
 
 ## ⏱️ Telemetry — Estatísticas
 
