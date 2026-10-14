@@ -45,6 +45,32 @@
 | 🥈 | [CEM-Senai-Zeiss](https://github.com/fraissatt/CEM-Senai-Zeiss) | JavaScript project tied to the SENAI ZEISS Metrology Center |
 | 🥉 | [boas-praticas-software](https://github.com/fraissatt/boas-praticas-software) | Java project on software development best practices |
 
+## 🏎️ Pit Lane — Garage
+
+<p align="center">
+  <img src="assets/art/ferrari.svg" width="380" alt="Stylized illustration of a red early-2000s F1 car" />
+  <img src="assets/art/mclaren.svg" width="380" alt="Stylized illustration of a red and white early-1990s F1 car" />
+</p>
+<p align="center"><sub>🔴 Ferrari · Schumacher era &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
+
+<p align="center">
+  <img src="assets/art/helmet.svg" width="110" alt="Yellow helmet with green and blue stripes" />
+  &nbsp;&nbsp;
+  <img src="assets/art/trophy.svg" width="90" alt="Winner's trophy" />
+</p>
+<p align="center"><sub>Yellow, green and blue helmet, inspired by Senna's · 🏆 Monaco: six wins for Ayrton Senna, the Grand Prix record</sub></p>
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/art/track-interlagos.svg" width="200" alt="Stylized outline of the circuit Interlagos" /><br /><sub>🇧🇷 Interlagos</sub></td>
+    <td align="center"><img src="assets/art/track-monza.svg" width="200" alt="Stylized outline of the circuit Monza" /><br /><sub>🇮🇹 Monza</sub></td>
+    <td align="center"><img src="assets/art/track-suzuka.svg" width="200" alt="Stylized outline of the circuit Suzuka" /><br /><sub>🇯🇵 Suzuka</sub></td>
+    <td align="center"><img src="assets/art/track-monaco.svg" width="200" alt="Stylized outline of the circuit Monaco" /><br /><sub>🇲🇨 Monaco</sub></td>
+  </tr>
+</table>
+
+<sub>Stylized illustrations, no logos or sponsors. Circuit outlines are approximations.</sub>
+
 ## ⏱️ Telemetry — Statistics
 
 <img src="assets/stats-overview.svg" alt="GitHub overview" />

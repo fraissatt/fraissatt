@@ -92,3 +92,18 @@ SVG labels are bilingual and short (for example "Repositórios · Repositories")
 
 - Review the project descriptions (drafts based on repository names and Lattes text).
 - Publish `fraissatt/fraissatt` and run the workflow once manually.
+
+## Addendum (2026-10-14): Pit Lane art
+
+Approved by the user. New hand-drawn, static SVG illustrations in `assets/art/`:
+`ferrari.svg` (Schumacher-era red car), `mclaren.svg` (1990 to 1993 Senna-era red/white car),
+`helmet.svg` (yellow with green and blue stripes), `trophy.svg`, and four circuit outlines:
+`track-interlagos.svg`, `track-monza.svg`, `track-suzuka.svg`, `track-monaco.svg`.
+
+- New README section `Pit Lane — Garagem / Garage` between Podium and Telemetry (README now has 7 sections).
+- Banner gains the helmet and trophy.
+- Rules: no logos, sponsors, driver names or faces; art files contain no `<text>` and no `<image>`; cars are
+  stylized silhouettes in livery colors; circuits are stylized approximations, stated in the caption.
+- Facts in captions: Senna holds the Monaco GP win record (6 wins). McLaren caption covers Senna's 1990 to 1993 cars only.
+- Checks: `scripts/art.test.mjs` (files exist, accessible, no text/image/external refs, tags balanced) and the
+  README test (7 sections, every art file referenced). Visual check by rendering with headless Edge.

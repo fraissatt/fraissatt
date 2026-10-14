@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img" aria-label="Stylized outline of the Monza circuit">
+  <rect width="200" height="150" rx="8" fill="#1e1e22"/>
+  <path d="M40 112 L92 112 L100 104 L108 112 L150 112 C170 112 182 100 176 84 C170 68 150 70 138 60 C126 50 132 36 112 30 C90 24 60 26 44 38 C28 50 28 66 40 76 C52 86 56 96 46 104 C42 108 40 110 40 112 Z" fill="none" stroke="#0b0b0d" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M40 112 L92 112 L100 104 L108 112 L150 112 C170 112 182 100 176 84 C170 68 150 70 138 60 C126 50 132 36 112 30 C90 24 60 26 44 38 C28 50 28 66 40 76 C52 86 56 96 46 104 C42 108 40 110 40 112 Z" fill="none" stroke="#e9e9ee" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="68.5" y="104" width="3" height="16" fill="#e10600"/>
+</svg>

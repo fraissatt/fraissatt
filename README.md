@@ -45,6 +45,32 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 | 🥈 | [CEM-Senai-Zeiss](https://github.com/fraissatt/CEM-Senai-Zeiss) | Projeto em JavaScript ligado ao Centro de Metrologia SENAI ZEISS |
 | 🥉 | [boas-praticas-software](https://github.com/fraissatt/boas-praticas-software) | Projeto em Java sobre boas práticas de desenvolvimento de software |
 
+## 🏎️ Pit Lane — Garagem
+
+<p align="center">
+  <img src="assets/art/ferrari.svg" width="380" alt="Ilustração estilizada de um carro de F1 vermelho do início dos anos 2000" />
+  <img src="assets/art/mclaren.svg" width="380" alt="Ilustração estilizada de um carro de F1 vermelho e branco do início dos anos 1990" />
+</p>
+<p align="center"><sub>🔴 Ferrari · era Schumacher &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
+
+<p align="center">
+  <img src="assets/art/helmet.svg" width="110" alt="Capacete amarelo com faixas verde e azul" />
+  &nbsp;&nbsp;
+  <img src="assets/art/trophy.svg" width="90" alt="Troféu de vencedor" />
+</p>
+<p align="center"><sub>Capacete amarelo, verde e azul, inspirado no de Senna · 🏆 Mônaco: seis vitórias de Ayrton Senna, recorde do GP</sub></p>
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/art/track-interlagos.svg" width="200" alt="Contorno estilizado da pista de Interlagos" /><br /><sub>🇧🇷 Interlagos</sub></td>
+    <td align="center"><img src="assets/art/track-monza.svg" width="200" alt="Contorno estilizado da pista de Monza" /><br /><sub>🇮🇹 Monza</sub></td>
+    <td align="center"><img src="assets/art/track-suzuka.svg" width="200" alt="Contorno estilizado da pista de Suzuka" /><br /><sub>🇯🇵 Suzuka</sub></td>
+    <td align="center"><img src="assets/art/track-monaco.svg" width="200" alt="Contorno estilizado da pista de Mônaco" /><br /><sub>🇲🇨 Mônaco</sub></td>
+  </tr>
+</table>
+
+<sub>Ilustrações estilizadas, sem logos nem patrocinadores. Os contornos das pistas são aproximações.</sub>
+
 ## ⏱️ Telemetry — Estatísticas
 
 <img src="assets/stats-overview.svg" alt="Visão geral do GitHub" />

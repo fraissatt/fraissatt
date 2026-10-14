@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img" aria-label="Stylized outline of the Monaco circuit">
+  <rect width="200" height="150" rx="8" fill="#1e1e22"/>
+  <path d="M150 120 L170 104 L160 80 C156 66 140 58 120 58 L96 62 C80 66 66 60 54 52 C40 44 28 54 36 64 C44 74 64 72 76 78 L108 94 L132 100 L140 96 L144 104 L134 110 L100 114 C84 116 76 108 66 114 C52 120 44 130 60 132 L130 132 Z" fill="none" stroke="#0b0b0d" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M150 120 L170 104 L160 80 C156 66 140 58 120 58 L96 62 C80 66 66 60 54 52 C40 44 28 54 36 64 C44 74 64 72 76 78 L108 94 L132 100 L140 96 L144 104 L134 110 L100 114 C84 116 76 108 66 114 C52 120 44 130 60 132 L130 132 Z" fill="none" stroke="#e9e9ee" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="158.5" y="104" width="3" height="16" fill="#e10600"/>
+</svg>

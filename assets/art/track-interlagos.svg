@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img" aria-label="Stylized outline of the Interlagos circuit">
+  <rect width="200" height="150" rx="8" fill="#1e1e22"/>
+  <path d="M52 112 L128 112 C152 112 166 100 162 82 C158 66 138 68 132 56 C127 45 140 36 156 36 L166 34 C176 30 172 20 158 20 L100 24 C84 26 76 36 84 46 C92 56 108 54 108 64 C108 74 92 70 78 70 C58 70 44 78 42 92 C40 102 44 110 52 112 Z" fill="none" stroke="#0b0b0d" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M52 112 L128 112 C152 112 166 100 162 82 C158 66 138 68 132 56 C127 45 140 36 156 36 L166 34 C176 30 172 20 158 20 L100 24 C84 26 76 36 84 46 C92 56 108 54 108 64 C108 74 92 70 78 70 C58 70 44 78 42 92 C40 102 44 110 52 112 Z" fill="none" stroke="#e9e9ee" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="88.5" y="104" width="3" height="16" fill="#e10600"/>
+</svg>

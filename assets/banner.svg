@@ -11,5 +11,31 @@
   <text x="44" y="70" fill="#ffffff" font-family="ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace" font-size="34" font-weight="700" letter-spacing="2">JOÃO VÍTOR MAMEDE</text>
   <text x="44" y="102" fill="#9a9aa2" font-family="ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="1">SOFTWARE ENGINEERING · FULL STACK DEVELOPER</text>
   <rect x="44" y="116" width="48" height="4" fill="#e10600"/>
+  <g transform="translate(640 14) scale(.78)">
+  <defs>
+    <clipPath id="shell">
+      <path d="M22 88 C18 40 55 12 92 14 C128 16 150 42 148 80 C148 92 142 100 132 104 L96 108 C88 118 70 122 52 118 C32 112 24 100 22 88 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M22 88 C18 40 55 12 92 14 C128 16 150 42 148 80 C148 92 142 100 132 104 L96 108 C88 118 70 122 52 118 C32 112 24 100 22 88 Z" fill="#ffd600"/>
+  <g clip-path="url(#shell)">
+    <path d="M10 84 L160 72 L160 84 L10 96 Z" fill="#009739"/>
+    <path d="M10 98 L160 86 L160 98 L10 110 Z" fill="#1a4fa0"/>
+    <path d="M16 30 C40 12 80 8 110 16 C80 18 40 28 16 52 Z" fill="#ffffff" opacity=".35"/>
+  </g>
+  <path d="M96 48 C120 44 142 52 146 66 L143 80 C125 76 105 76 92 80 Z" fill="#161618"/>
+  <path d="M100 52 C118 50 134 54 140 62" fill="none" stroke="#ffffff" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M96 108 L132 104" stroke="#161618" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(770 16) scale(.8)">
+  <path d="M30 26 H16 C16 55 26 62 36 64" fill="none" stroke="#e0a800" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 26 H104 C104 55 94 62 84 64" fill="none" stroke="#e0a800" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 18 H90 V50 C90 78 75 90 60 92 C45 90 30 78 30 50 Z" fill="#f5b800"/>
+  <path d="M38 24 H48 V52 C48 70 52 80 58 86 C44 82 38 70 38 50 Z" fill="#ffe27a" opacity=".7"/>
+  <rect x="53" y="92" width="14" height="20" rx="2" fill="#e0a800"/>
+  <rect x="38" y="110" width="44" height="10" rx="2" fill="#f5b800"/>
+  <rect x="28" y="120" width="64" height="12" rx="2" fill="#2a2a2e"/>
+  <rect x="28" y="120" width="64" height="3" rx="1.5" fill="#e0a800"/>
+  </g>
   <rect y="140" width="900" height="20" fill="url(#check)"/>
 </svg>
