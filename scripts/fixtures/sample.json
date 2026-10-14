@@ -1,0 +1,16 @@
+{
+  "user": { "login": "fraissatt", "followers": 5, "public_repos": 5 },
+  "repos": [
+    { "name": "metas-app", "stargazers_count": 2, "fork": false,
+      "languages": { "TypeScript": 52000, "CSS": 3000, "HTML": 1200 } },
+    { "name": "Site-Senai", "stargazers_count": 0, "fork": false,
+      "languages": { "HTML": 30000, "JavaScript": 8000 } },
+    { "name": "boas-praticas-software", "stargazers_count": 0, "fork": false,
+      "languages": { "Java": 41000 } },
+    { "name": "exercicios_25-08", "stargazers_count": 0, "fork": false,
+      "languages": { "Dart": 9000 } },
+    { "name": "some-fork", "stargazers_count": 99, "fork": true,
+      "languages": { "Python": 999999 } }
+  ],
+  "commits": 120
+}

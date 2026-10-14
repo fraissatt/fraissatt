@@ -1,0 +1,9 @@
+{
+  "name": "fraissatt-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "stats": "node scripts/generate-stats.mjs"
+  }
+}
