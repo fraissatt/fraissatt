@@ -17,9 +17,9 @@ test('overview is a timing tower with values and bilingual tags', () => {
   assert.match(svg, /#e10600/);
 });
 
-test('overview renders — for missing commits, never null or 0', () => {
+test('overview renders - for missing commits, never null or 0', () => {
   const svg = renderOverviewSvg({ repos: 1, stars: 0, commits: null, followers: 0 });
-  assert.match(svg, />—</);
+  assert.match(svg, />-</);
   assert.doesNotMatch(svg, /null|undefined|NaN/);
 });
 

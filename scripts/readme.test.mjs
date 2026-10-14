@@ -13,6 +13,9 @@ const ART = [
   ...['helmet', 'trophy', 'track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco']
     .map((name) => `assets/art/${name}.svg`),
 ];
+const SECTIONS = [
+  "stints", "power-unit", "podium-1", "podium-2", "podium-3",
+].map((name) => `assets/sections/${name}`);
 const headings = (text) => text.split('\n').filter((line) => line.startsWith('## '));
 
 test('both READMEs have the same number of sections', () => {
@@ -30,6 +33,16 @@ test('both READMEs reference existing banner and stats SVGs', () => {
     for (const asset of ['assets/banner.svg', 'assets/stats-overview.svg', 'assets/stats-languages.svg', ...ART]) {
       assert.ok(text.includes(asset), `missing ${asset}`);
       assert.ok(existsSync(path.join(root, asset)), `file not found: ${asset}`);
+    }
+  }
+});
+
+test('READMEs use their own language section images', () => {
+  for (const [text, lang] of [[pt, 'pt'], [en, 'en']]) {
+    for (const base of SECTIONS) {
+      const file = `${base}.${lang}.svg`;
+      assert.ok(text.includes(file), `missing ${file}`);
+      assert.ok(existsSync(path.join(root, file)), `file not found: ${file}`);
     }
   }
 });

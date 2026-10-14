@@ -6,7 +6,7 @@
 
 </div>
 
-## 🏁 Driver Profile — About me
+## 🏁 Driver Profile - About me
 
 8th-term Software Engineering student at **Faculdade SENAI Fatesg** (since 2023), focused on web applications, project leadership and full stack development. I completed an international internship at **ZEISS** headquarters in Oberkochen, Germany, and I work at the intersection of metrology, digital transformation and technological innovation.
 
@@ -16,36 +16,30 @@
 - 📜 AWS Academy Cloud Foundations · Metrology course (INMETRO)
 - 📍 Goiânia, Brazil
 
-## 🛞 Stints — Experience
+## 🛞 Stints - Experience
 
-| Stint | Period | Where | What I did |
-|---|---|---|---|
-| 4 | 2025 – 2026 | **ZEISS IQS**, Oberkochen, Germany | International internship: development and maintenance of web applications with C#, Angular, SQL, REST APIs, Swagger and Git/GitHub |
-| 3 | 01/2025 – 09/2025 | **SENAI ZEISS Metrology Center** | ZEISS PILOT, a web system to manage the laboratory (Spring Boot, PostgreSQL, dashboards and reports); hands-on operation of metrology equipment |
-| 2 | 06/2024 – 01/2025 | **SENAI Institute of Automation Technology** | Full stack development of a web system for Acoustic Emission reports: user hierarchy, dynamic dashboards and requirements engineering |
-| 1 | 01/2024 – 04/2024 | **Integra Engenharia de Sistemas** | Support internship: installation and configuration of operating systems |
+<p align="center">
+  <img src="assets/sections/stints.en.svg" width="840" alt="Experience in 4 stints, newest first: ZEISS IQS, Oberkochen, Germany, 2025 – 2026. International internship: development and maintenance of web applications with C#, Angular, SQL, REST APIs, Swagger and Git/GitHub. SENAI ZEISS Metrology Center, 01/2025 – 09/2025. ZEISS PILOT, a web system to manage the laboratory (Spring Boot, PostgreSQL, dashboards and reports); hands-on operation of metrology equipment. SENAI Institute of Automation Technology, 06/2024 – 01/2025. Full stack development of a web system for Acoustic Emission reports: user hierarchy, dynamic dashboards and requirements engineering. Integra Engenharia de Sistemas, 01/2024 – 04/2024. Support internship: installation and configuration of operating systems." />
+</p>
 
-## ⚙️ Power Unit — Stack
+## ⚙️ Power Unit - Stack
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+<p align="center">
+  <img src="assets/sections/power-unit.en.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Data: PostgreSQL, SQL; Cloud: AWS; Tooling: Git/GitHub, Swagger." />
+</p>
 
-## 🏆 Podium — Featured projects
+## 🏆 Podium - Featured projects
 
-| Pos. | Project | Description |
-|---|---|---|
-| 🥇 | [metas-app](https://github.com/fraissatt/metas-app) | TypeScript web application · [demo](https://metas-app-flax.vercel.app) |
-| 🥈 | [CEM-Senai-Zeiss](https://github.com/fraissatt/CEM-Senai-Zeiss) | JavaScript project tied to the SENAI ZEISS Metrology Center |
-| 🥉 | [boas-praticas-software](https://github.com/fraissatt/boas-praticas-software) | Java project on software development best practices |
+<table align="center">
+  <tr valign="bottom">
+    <td><a href="https://github.com/fraissatt/CEM-Senai-Zeiss"><img src="assets/sections/podium-2.en.svg" alt="Place 2: CEM-Senai-Zeiss (JavaScript). JavaScript project tied to the SENAI ZEISS Metrology Center." /></a></td>
+    <td><a href="https://github.com/fraissatt/metas-app"><img src="assets/sections/podium-1.en.svg" alt="Place 1: metas-app (TypeScript). TypeScript web application, deployed on Vercel." /></a></td>
+    <td><a href="https://github.com/fraissatt/boas-praticas-software"><img src="assets/sections/podium-3.en.svg" alt="Place 3: boas-praticas-software (Java). Java project on software development best practices." /></a></td>
+  </tr>
+</table>
+<p align="center"><sub>▶ <a href="https://metas-app-flax.vercel.app">metas-app: view demo</a></sub></p>
 
-## 🏎️ Pit Lane — Garage
+## 🏎️ Pit Lane - Garage
 
 <p align="center">
   <img src="assets/art/ferrari.png" width="380" alt="Pixel art of a red early-2000s Ferrari F1 car" />
@@ -71,14 +65,14 @@
 
 <sub>Cars are pixel art; the helmet, trophy and circuits are stylized illustrations, and circuit outlines are approximations.</sub>
 
-## ⏱️ Telemetry — Statistics
+## ⏱️ Telemetry - Statistics
 
 <img src="assets/stats-overview.svg" alt="GitHub overview" />
 <img src="assets/stats-languages.svg" alt="Most used languages" />
 
 <sub>Generated daily by GitHub Actions from public repositories. The commit count only includes public contributions.</sub>
 
-## 📻 Team Radio — Contact
+## 📻 Team Radio - Contact
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-v%C3%ADtor-de-alencar-fraissat-mamede-a59394270/)
 - 📄 [Lattes CV](http://lattes.cnpq.br/2934832325743292)

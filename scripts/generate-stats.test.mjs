@@ -27,11 +27,11 @@ test('fixture mode writes both SVGs', async () => {
   assert.match(overview, />120</);
 });
 
-test('API mode without token renders — for commits', async () => {
+test('API mode without token renders - for commits', async () => {
   const outDir = await tmp();
   await run({ outDir, fetchImpl: okFetch });
   const overview = await readFile(path.join(outDir, 'stats-overview.svg'), 'utf8');
-  assert.match(overview, />—</);
+  assert.match(overview, />-</);
 });
 
 test('API mode with token reads the commit count', async () => {

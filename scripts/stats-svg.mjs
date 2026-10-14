@@ -1,11 +1,11 @@
-const FONT = "ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace";
+export const FONT = "ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace";
 const NS = 'xmlns="http://www.w3.org/2000/svg"';
 const WIDTH = 495;
 const BAR_X = 24;
 const BAR_W = 447;
 const RED = '#e10600';
 
-const STYLE = `
+export const STYLE = `
 .bg{fill:#0b0b0d;stroke:#2a2a2e}
 .stripe{fill:${RED}}
 .title{fill:#fff;font:700 13px ${FONT};letter-spacing:1.5px}
@@ -19,7 +19,7 @@ const STYLE = `
 .track{fill:#26262b}`;
 
 // Tyre compounds by rank: soft, medium, hard, intermediate, wet.
-const TYRES = ['#ff3b30', '#ffd12e', '#f2f2f2', '#43b02a', '#0067ad'];
+export const TYRES = ['#ff3b30', '#ffd12e', '#f2f2f2', '#43b02a', '#0067ad'];
 const GRAY = '#6b6b73';
 const tyreColor = (lang, rank) => (lang.name === 'Other' ? GRAY : (TYRES[rank] ?? GRAY));
 
@@ -29,19 +29,19 @@ export function escapeXml(value) {
 }
 
 const formatNumber = (n) =>
-  n === null || n === undefined ? '—' : new Intl.NumberFormat('en-US').format(n);
+  n === null || n === undefined ? '-' : new Intl.NumberFormat('en-US').format(n);
 
-function frame(height, label, title, body) {
-  return `<svg ${NS} width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" role="img" aria-label="${escapeXml(label)}">` +
-    `<style>${STYLE}</style>` +
-    `<rect class="bg" x=".5" y=".5" width="${WIDTH - 1}" height="${height - 1}" rx="6"/>` +
+export function frame(height, label, title, body, { width = WIDTH, extraStyle = '' } = {}) {
+  return `<svg ${NS} width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeXml(label)}">` +
+    `<style>${STYLE}${extraStyle}</style>` +
+    `<rect class="bg" x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="6"/>` +
     `<rect class="stripe" x="24" y="22" width="4" height="18"/>` +
     `<text class="title" x="36" y="36">${escapeXml(title)}</text>` +
     body + '</svg>';
 }
 
-function positionCell(rowY, position) {
-  return `<line class="sep" x1="24" y1="${rowY}" x2="471" y2="${rowY}"/>` +
+export function positionCell(rowY, position, right = 471) {
+  return `<line class="sep" x1="24" y1="${rowY}" x2="${right}" y2="${rowY}"/>` +
     `<rect class="pos" x="24" y="${rowY + 6}" width="24" height="24" rx="3"/>` +
     `<text class="posn" x="36" y="${rowY + 23}">${position}</text>`;
 }

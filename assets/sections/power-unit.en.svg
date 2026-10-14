@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="296" viewBox="0 0 840 296" role="img" aria-label="Technology stack"><style>
+.bg{fill:#0b0b0d;stroke:#2a2a2e}
+.stripe{fill:#e10600}
+.title{fill:#fff;font:700 13px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace;letter-spacing:1.5px}
+.pos{fill:#e9e9ee}
+.posn{fill:#0b0b0d;font:700 13px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace;text-anchor:middle}
+.name{fill:#fff;font:700 14px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace}
+.tag{fill:#9a9aa2;font:11px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace}
+.value{fill:#fff;font:700 18px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace;text-anchor:end}
+.pct{fill:#fff;font:700 14px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace;text-anchor:end}
+.sep{stroke:#2a2a2e}
+.track{fill:#26262b}
+.chip{fill:#26262b;stroke:#3a3a40}
+.chiptxt{fill:#fff;font:12px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace}
+.step{fill:#0b0b0d;stroke:#2a2a2e}
+.bar{fill:#e10600}
+.big{font:700 38px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace}
+.when{fill:#e9e9ee;font:700 12px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace;text-anchor:end}
+.desc{fill:#9a9aa2;font:11px ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace}</style><rect class="bg" x=".5" y=".5" width="839" height="295" rx="6"/><rect class="stripe" x="24" y="22" width="4" height="18"/><text class="title" x="36" y="36">POWER UNIT · Stack</text><line class="sep" x1="24" y1="56" x2="816" y2="56"/><rect class="bar" x="24" y="66" width="3" height="24"/><text class="name" x="38" y="78">ENGINE</text><text class="tag" x="38" y="92">Back-end</text><rect class="chip" x="250" y="65" width="50" height="26" rx="4"/><text class="chiptxt" x="260" y="82">Java</text><rect class="chip" x="308" y="65" width="101" height="26" rx="4"/><text class="chiptxt" x="318" y="82">Spring Boot</text><rect class="chip" x="417" y="65" width="35" height="26" rx="4"/><text class="chiptxt" x="427" y="82">C#</text><rect class="chip" x="460" y="65" width="87" height="26" rx="4"/><text class="chiptxt" x="470" y="82">REST APIs</text><line class="sep" x1="24" y1="102" x2="816" y2="102"/><rect class="bar" x="24" y="112" width="3" height="24"/><text class="name" x="38" y="124">CHASSIS</text><text class="tag" x="38" y="138">Front-end</text><rect class="chip" x="250" y="111" width="94" height="26" rx="4"/><text class="chiptxt" x="260" y="128">TypeScript</text><rect class="chip" x="352" y="111" width="72" height="26" rx="4"/><text class="chiptxt" x="362" y="128">Angular</text><rect class="chip" x="432" y="111" width="50" height="26" rx="4"/><text class="chiptxt" x="442" y="128">Dart</text><line class="sep" x1="24" y1="148" x2="816" y2="148"/><rect class="bar" x="24" y="158" width="3" height="24"/><text class="name" x="38" y="170">FUEL</text><text class="tag" x="38" y="184">Data</text><rect class="chip" x="250" y="157" width="94" height="26" rx="4"/><text class="chiptxt" x="260" y="174">PostgreSQL</text><rect class="chip" x="352" y="157" width="42" height="26" rx="4"/><text class="chiptxt" x="362" y="174">SQL</text><line class="sep" x1="24" y1="194" x2="816" y2="194"/><rect class="bar" x="24" y="204" width="3" height="24"/><text class="name" x="38" y="216">AERO</text><text class="tag" x="38" y="230">Cloud</text><rect class="chip" x="250" y="203" width="42" height="26" rx="4"/><text class="chiptxt" x="260" y="220">AWS</text><line class="sep" x1="24" y1="240" x2="816" y2="240"/><rect class="bar" x="24" y="250" width="3" height="24"/><text class="name" x="38" y="262">TELEMETRY</text><text class="tag" x="38" y="276">Tooling</text><rect class="chip" x="250" y="249" width="94" height="26" rx="4"/><text class="chiptxt" x="260" y="266">Git/GitHub</text><rect class="chip" x="352" y="249" width="72" height="26" rx="4"/><text class="chiptxt" x="362" y="266">Swagger</text></svg>

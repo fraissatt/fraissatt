@@ -121,3 +121,15 @@ The McLaren is lightened by 28% (blend toward white) at the user's request.
   confirming the right to publish it is the user's responsibility.
 - Checks: `scripts/art.test.mjs` verifies both PNGs are valid RGBA; transparency was verified visually on light
   and dark backgrounds.
+
+## Addendum 3 (2026-10-14): themed Stints, Power Unit and Podium cards
+
+Approved by the user. The three text sections became static SVG cards in the same timing-tower style as Telemetry:
+Stints = "Race Strategy" (tyre-colored stints, newest first, equal widths because the Lattes CV has no exact
+months for the ZEISS IQS stint), Power Unit = technology chips grouped by car component (no skill levels, no
+logos), Podium = three clickable steps of different heights, winner with a trophy.
+
+- Source of truth: `scripts/profile-content.mjs` (PT and EN). Renderers: `scripts/sections-svg.mjs`.
+  Generator: `scripts/generate-sections.mjs` writes ten SVGs to `assets/sections/`; run by hand, not by the Action.
+- README alt text carries the same facts in plain text for accessibility.
+- All em dashes were replaced by hyphens (headings, README text, SVG "no data" marker). En dashes in date ranges stay.
