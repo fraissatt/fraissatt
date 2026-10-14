@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="João Vítor Mamede · Software Engineering · Full Stack Developer">
+  <defs>
+    <pattern id="check" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#ffffff"/>
+      <rect width="10" height="10" fill="#0b0b0d"/>
+      <rect x="10" y="10" width="10" height="10" fill="#0b0b0d"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="160" fill="#0b0b0d"/>
+  <rect width="10" height="160" fill="#e10600"/>
+  <text x="44" y="70" fill="#ffffff" font-family="ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace" font-size="34" font-weight="700" letter-spacing="2">JOÃO VÍTOR MAMEDE</text>
+  <text x="44" y="102" fill="#9a9aa2" font-family="ui-monospace,'SF Mono',Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="1">SOFTWARE ENGINEERING · FULL STACK DEVELOPER</text>
+  <rect x="44" y="116" width="48" height="4" fill="#e10600"/>
+  <rect y="140" width="900" height="20" fill="url(#check)"/>
+</svg>
