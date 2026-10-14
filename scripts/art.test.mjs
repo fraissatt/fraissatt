@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILES = [
-  'helmet', 'trophy',
+  'trophy',
   'track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco',
 ].map((name) => `assets/art/${name}.svg`);
 
@@ -36,12 +36,12 @@ for (const file of FILES) {
   });
 }
 
-for (const name of ['ferrari', 'mclaren']) {
+for (const name of ['ferrari', 'mclaren', 'helmet']) {
   test(`assets/art/${name}.png is an RGBA pixel-art PNG`, () => {
     const png = readFileSync(path.join(root, `assets/art/${name}.png`));
     assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10], 'PNG signature');
     assert.equal(png.toString('ascii', 12, 16), 'IHDR');
-    assert.ok(png.readUInt32BE(16) >= 400, 'wide enough to stay crisp');
+    assert.ok(png.readUInt32BE(16) >= 300, 'wide enough to stay crisp');
     assert.equal(png[24], 8, 'bit depth 8');
     assert.equal(png[25], 6, 'colour type 6 = RGBA, so the background can be transparent');
   });

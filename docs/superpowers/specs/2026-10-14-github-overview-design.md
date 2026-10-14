@@ -133,3 +133,21 @@ logos), Podium = three clickable steps of different heights, winner with a troph
   Generator: `scripts/generate-sections.mjs` writes ten SVGs to `assets/sections/`; run by hand, not by the Action.
 - README alt text carries the same facts in plain text for accessibility.
 - All em dashes were replaced by hyphens (headings, README text, SVG "no data" marker). En dashes in date ranges stay.
+
+## Addendum 4 (2026-10-14): pixel-art helmet and animations
+
+Approved by the user. `assets/art/helmet.svg` was replaced by `assets/art/helmet.png`, the pixel-art helmet the
+user supplied, cleaned (background and the "AYRTON SENNA" caption removed; only the helmet's pixels kept) and
+scaled by an integer factor. The artwork carries sponsor lettering as in the source image; author and license
+are unknown (same caveat as the cars).
+
+New animations, all SMIL-based SVG (no scripts) so they play when GitHub shows them as images:
+- `assets/animations/senna-s.svg`: top-down McLaren-coloured pixel car (white with red stripe, yellow helmet)
+  driving through a pixelated Senna S at Interlagos, 7 s loop, in the Pit Lane section of both READMEs.
+  Colours identify the car, not image quality.
+- `assets/banner.svg` now animates: five start lights that light up in sequence and go out, and a scrolling
+  chequered strip. The banner embeds the helmet PNG as a data URI.
+
+Source: `scripts/pixel-scene.mjs`, `scripts/banner-svg.mjs`; `scripts/generate-animations.mjs` writes both files
+(run by hand, not by the Action). Tests: `pixel-scene.test.mjs`, `banner-svg.test.mjs`. Animation playback was
+checked by rendering a frame about 3 s into the loop. Limitation: SMIL cannot honour prefers-reduced-motion.

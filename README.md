@@ -48,11 +48,11 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 <p align="center"><sub>🔴 Ferrari · era Schumacher &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
 
 <p align="center">
-  <img src="assets/art/helmet.svg" width="110" alt="Capacete amarelo com faixas verde e azul" />
+  <img src="assets/art/helmet.png" width="178" alt="Pixel art de um capacete amarelo com faixas verde e azul" />
   &nbsp;&nbsp;
   <img src="assets/art/trophy.svg" width="90" alt="Troféu de vencedor" />
 </p>
-<p align="center"><sub>Capacete amarelo, verde e azul, inspirado no de Senna · 🏆 Mônaco: seis vitórias de Ayrton Senna, recorde do GP</sub></p>
+<p align="center"><sub>Capacete em pixel art, inspirado no de Senna · 🏆 Mônaco: seis vitórias de Ayrton Senna, recorde do GP</sub></p>
 
 <table align="center">
   <tr>
@@ -63,7 +63,11 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
   </tr>
 </table>
 
-<sub>Carros em pixel art; capacete, troféu e pistas são ilustrações estilizadas, e os contornos das pistas são aproximações.</sub>
+<p align="center">
+  <img src="assets/animations/senna-s.svg" width="840" alt="Animação em pixel art: um carro vermelho e branco passando pela Curva do Senna, nas primeiras curvas de Interlagos" />
+</p>
+
+<sub>Carros, capacete e animação em pixel art; troféu e pistas são ilustrações estilizadas, e os contornos das pistas são aproximações.</sub>
 
 ## ⏱️ Telemetry - Estatísticas
 

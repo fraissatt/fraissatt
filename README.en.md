@@ -48,11 +48,11 @@
 <p align="center"><sub>🔴 Ferrari · Schumacher era &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
 
 <p align="center">
-  <img src="assets/art/helmet.svg" width="110" alt="Yellow helmet with green and blue stripes" />
+  <img src="assets/art/helmet.png" width="178" alt="Pixel art of a yellow helmet with green and blue stripes" />
   &nbsp;&nbsp;
   <img src="assets/art/trophy.svg" width="90" alt="Winner's trophy" />
 </p>
-<p align="center"><sub>Yellow, green and blue helmet, inspired by Senna's · 🏆 Monaco: six wins for Ayrton Senna, the Grand Prix record</sub></p>
+<p align="center"><sub>Pixel art helmet, inspired by Senna's · 🏆 Monaco: six wins for Ayrton Senna, the Grand Prix record</sub></p>
 
 <table align="center">
   <tr>
@@ -63,7 +63,11 @@
   </tr>
 </table>
 
-<sub>Cars are pixel art; the helmet, trophy and circuits are stylized illustrations, and circuit outlines are approximations.</sub>
+<p align="center">
+  <img src="assets/animations/senna-s.svg" width="840" alt="Pixel art animation: a red and white race car driving through the Senna S, the first corners of the Interlagos circuit" />
+</p>
+
+<sub>Cars, helmet and animation are pixel art; the trophy and circuits are stylized illustrations, and circuit outlines are approximations.</sub>
 
 ## ⏱️ Telemetry - Statistics
 
