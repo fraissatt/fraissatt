@@ -107,3 +107,17 @@ Approved by the user. New hand-drawn, static SVG illustrations in `assets/art/`:
 - Facts in captions: Senna holds the Monaco GP win record (6 wins). McLaren caption covers Senna's 1990 to 1993 cars only.
 - Checks: `scripts/art.test.mjs` (files exist, accessible, no text/image/external refs, tags balanced) and the
   README test (7 sections, every art file referenced). Visual check by rendering with headless Edge.
+
+## Addendum 2 (2026-10-14): pixel-art cars
+
+Approved by the user. The two drawn SVG cars were replaced by pixel-art images the user supplied:
+`assets/art/ferrari.png` and `assets/art/mclaren.png` (RGBA, transparent background, car only: background, ground
+shadow and ground line removed; scaled with nearest-neighbour by an integer factor so pixels stay crisp).
+The McLaren is lightened by 28% (blend toward white) at the user's request.
+
+- This supersedes the earlier rule "no logos or sponsors" for the two cars only: the supplied artwork contains
+  sponsor branding. Helmet, trophy and circuits remain logo-free.
+- The artwork was supplied by the user and its author and license are unknown; crediting the original artist and
+  confirming the right to publish it is the user's responsibility.
+- Checks: `scripts/art.test.mjs` verifies both PNGs are valid RGBA; transparency was verified visually on light
+  and dark backgrounds.

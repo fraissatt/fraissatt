@@ -8,8 +8,11 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (name) => readFileSync(path.join(root, name), 'utf8');
 const pt = read('README.md');
 const en = read('README.en.md');
-const ART = ['ferrari', 'mclaren', 'helmet', 'trophy', 'track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco']
-  .map((name) => `assets/art/${name}.svg`);
+const ART = [
+  'assets/art/ferrari.png', 'assets/art/mclaren.png',
+  ...['helmet', 'trophy', 'track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco']
+    .map((name) => `assets/art/${name}.svg`),
+];
 const headings = (text) => text.split('\n').filter((line) => line.startsWith('## '));
 
 test('both READMEs have the same number of sections', () => {

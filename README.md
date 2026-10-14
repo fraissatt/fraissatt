@@ -48,8 +48,8 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 ## 🏎️ Pit Lane — Garagem
 
 <p align="center">
-  <img src="assets/art/ferrari.svg" width="380" alt="Ilustração estilizada de um carro de F1 vermelho do início dos anos 2000" />
-  <img src="assets/art/mclaren.svg" width="380" alt="Ilustração estilizada de um carro de F1 vermelho e branco do início dos anos 1990" />
+  <img src="assets/art/ferrari.png" width="380" alt="Pixel art de uma Ferrari de F1 vermelha do início dos anos 2000" />
+  <img src="assets/art/mclaren.png" width="380" alt="Pixel art de uma McLaren de F1 branca e vermelha do início dos anos 1990" />
 </p>
 <p align="center"><sub>🔴 Ferrari · era Schumacher &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
 
@@ -69,7 +69,7 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
   </tr>
 </table>
 
-<sub>Ilustrações estilizadas, sem logos nem patrocinadores. Os contornos das pistas são aproximações.</sub>
+<sub>Carros em pixel art; capacete, troféu e pistas são ilustrações estilizadas, e os contornos das pistas são aproximações.</sub>
 
 ## ⏱️ Telemetry — Estatísticas
 

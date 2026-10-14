@@ -48,8 +48,8 @@
 ## 🏎️ Pit Lane — Garage
 
 <p align="center">
-  <img src="assets/art/ferrari.svg" width="380" alt="Stylized illustration of a red early-2000s F1 car" />
-  <img src="assets/art/mclaren.svg" width="380" alt="Stylized illustration of a red and white early-1990s F1 car" />
+  <img src="assets/art/ferrari.png" width="380" alt="Pixel art of a red early-2000s Ferrari F1 car" />
+  <img src="assets/art/mclaren.png" width="380" alt="Pixel art of a white and red early-1990s McLaren F1 car" />
 </p>
 <p align="center"><sub>🔴 Ferrari · Schumacher era &nbsp;·&nbsp; ⚪🔴 McLaren · Senna (1990–1993)</sub></p>
 
@@ -69,7 +69,7 @@
   </tr>
 </table>
 
-<sub>Stylized illustrations, no logos or sponsors. Circuit outlines are approximations.</sub>
+<sub>Cars are pixel art; the helmet, trophy and circuits are stylized illustrations, and circuit outlines are approximations.</sub>
 
 ## ⏱️ Telemetry — Statistics
 
