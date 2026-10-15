@@ -165,3 +165,15 @@ for the Power Unit chips only.
   no styles/scripts/hrefs, unique ids, balanced tags and a minimum fill brightness on the black card.
 - Dark brand colours are adjusted: near-black becomes light grey, other dark colours are lifted 40% toward white.
 - Logos are trademarks of their owners and appear only to indicate technologies used.
+
+## Addendum 6 (2026-10-14): pixel-art trophy everywhere
+
+Approved by the user. `assets/art/trophy.svg` (drawn) was replaced by `assets/art/trophy.png`, a pixel-art trophy
+the user supplied (author and license unknown, same caveat as the other supplied art). Used in the banner, on top
+of the first podium step, in the Pit Lane section, in the Podium heading and in the Monaco caption (the 🏆 emoji
+was replaced there). Other headings keep their emoji.
+
+The source image was a compressed upscale with no clean block size. The pixel grid was recovered by fitting a
+96x96 grid (7.708 px cells, origin 6.5 px / 1.0 px, chosen by minimising colour variance inside cells), sampling
+each cell's centre colour, merging near-identical colours (12 colours remain), flood-filling the background from the
+edges and dropping grey anti-alias fringe cells. Result: 36x48 native pixels, scaled 9x with nearest-neighbour.

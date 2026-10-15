@@ -14,7 +14,7 @@ function startLights() {
   return housing + lights;
 }
 
-export function renderBanner({ helmetBase64, trophyInner }) {
+export function renderBanner({ helmetBase64, trophyBase64 }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="João Vítor Mamede · Software Engineering · Full Stack Developer">` +
     `<defs>` +
     `<pattern id="check" width="20" height="20" patternUnits="userSpaceOnUse">` +
@@ -29,7 +29,7 @@ export function renderBanner({ helmetBase64, trophyInner }) {
     `<rect x="44" y="116" width="48" height="4" fill="#e10600"/>` +
     startLights() +
     `<image href="data:image/png;base64,${helmetBase64}" x="650" y="14" width="124" height="107" style="image-rendering:pixelated"/>` +
-    `<g transform="translate(786 16) scale(.8)">${trophyInner}</g>` +
+    `<image href="data:image/png;base64,${trophyBase64}" x="790" y="16" width="78" height="104" style="image-rendering:pixelated"/>` +
     `<g clip-path="url(#strip)"><g>` +
     `<animateTransform attributeName="transform" type="translate" from="0 0" to="-20 0" dur="1.2s" repeatCount="indefinite"/>` +
     `<rect y="140" width="940" height="20" fill="url(#check)"/>` +

@@ -6,7 +6,6 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILES = [
-  'trophy',
   'track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco',
 ].map((name) => `assets/art/${name}.svg`);
 
@@ -36,7 +35,7 @@ for (const file of FILES) {
   });
 }
 
-for (const name of ['ferrari', 'mclaren', 'helmet']) {
+for (const name of ['ferrari', 'mclaren', 'helmet', 'trophy']) {
   test(`assets/art/${name}.png is an RGBA pixel-art PNG`, () => {
     const png = readFileSync(path.join(root, `assets/art/${name}.png`));
     assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10], 'PNG signature');

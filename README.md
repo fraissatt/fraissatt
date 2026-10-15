@@ -28,7 +28,7 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
   <img src="assets/sections/power-unit.pt.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Dados: PostgreSQL, SQL; Cloud: AWS; Ferramentas: Git, GitHub, Swagger." />
 </p>
 
-## 🏆 Podium - Projetos em destaque
+## <img src="assets/art/trophy.png" height="32" alt="" /> Podium - Projetos em destaque
 
 <table align="center">
   <tr valign="bottom">
@@ -50,9 +50,9 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 <p align="center">
   <img src="assets/art/helmet.png" width="178" alt="Pixel art de um capacete amarelo com faixas verde e azul" />
   &nbsp;&nbsp;
-  <img src="assets/art/trophy.svg" width="90" alt="Troféu de vencedor" />
+  <img src="assets/art/trophy.png" width="108" alt="Pixel art de um troféu dourado com base vermelha" />
 </p>
-<p align="center"><sub>Capacete em pixel art, inspirado no de Senna · 🏆 Mônaco: seis vitórias de Ayrton Senna, recorde do GP</sub></p>
+<p align="center"><sub>Capacete em pixel art, inspirado no de Senna · <img src="assets/art/trophy.png" height="18" alt="" /> Mônaco: seis vitórias de Ayrton Senna, recorde do GP</sub></p>
 
 <table align="center">
   <tr>
@@ -67,7 +67,7 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
   <img src="assets/animations/senna-s.svg" width="840" alt="Animação em pixel art: um carro vermelho e branco passando pela Curva do Senna, nas primeiras curvas de Interlagos" />
 </p>
 
-<sub>Carros, capacete e animação em pixel art; troféu e pistas são ilustrações estilizadas, e os contornos das pistas são aproximações.</sub>
+<sub>Carros, capacete, troféu e animação em pixel art; as pistas são ilustrações estilizadas, e os contornos delas são aproximações.</sub>
 
 ## ⏱️ Telemetry - Estatísticas
 

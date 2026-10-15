@@ -81,16 +81,11 @@ const STEP_H = 240;
 const STEP_HEIGHT = { 1: 190, 2: 170, 3: 150 };
 const MEDAL = { 1: '#f5b800', 2: '#c9ccd2', 3: '#cd7f32' };
 
-const MINI_TROPHY = '<g class="trophy" transform="translate(117 6) scale(.3)">' +
-  '<path d="M30 26 H16 C16 55 26 62 36 64" fill="none" stroke="#e0a800" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>' +
-  '<path d="M90 26 H104 C104 55 94 62 84 64" fill="none" stroke="#e0a800" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>' +
-  '<path d="M30 18 H90 V50 C90 78 75 90 60 92 C45 90 30 78 30 50 Z" fill="#f5b800"/>' +
-  '<rect x="53" y="92" width="14" height="20" rx="2" fill="#e0a800"/>' +
-  '<rect x="38" y="110" width="44" height="10" rx="2" fill="#f5b800"/>' +
-  '<rect x="28" y="120" width="64" height="12" rx="2" fill="#2a2a2e"/>' +
-  '</g>';
+// The winner's pixel-art trophy (36x48 native pixels) sits on top of the first step.
+const trophyImage = (base64) =>
+  `<image class="trophy" href="data:image/png;base64,${base64}" x="120" y="4" width="30" height="40" style="image-rendering:pixelated"/>`;
 
-export function renderPodiumStepSvg({ place, name, lang, text }) {
+export function renderPodiumStepSvg({ place, name, lang, text, trophyBase64 }) {
   const height = STEP_HEIGHT[place];
   const top = STEP_H - height;
   const lines = wrapText(text, 36);
@@ -101,7 +96,7 @@ export function renderPodiumStepSvg({ place, name, lang, text }) {
     `<text class="tag" x="20" y="${top + 90}">${escapeXml(lang)}</text>` +
     lines.map((line, i) =>
       `<text class="desc" x="20" y="${top + 110 + i * 14}">${escapeXml(line)}</text>`).join('') +
-    (place === 1 ? MINI_TROPHY : '');
+    (place === 1 && trophyBase64 ? trophyImage(trophyBase64) : '');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${STEP_W}" height="${STEP_H}" viewBox="0 0 ${STEP_W} ${STEP_H}" role="img" aria-label="${escapeXml(`${place}: ${name}`)}">` +
     `<style>${STYLE}${EXTRA}</style>${body}</svg>`;
 }

@@ -5,13 +5,13 @@ import { isBalanced, count, HAS_SCRIPT_OR_EXTERNAL } from './test-helpers.mjs';
 
 const svg = renderBanner({
   helmetBase64: 'AAAA',
-  trophyInner: '<rect x="1" y="1" width="2" height="2"/>',
+  trophyBase64: 'BBBB',
 });
 
-test('banner embeds the helmet as pixel art and the trophy', () => {
+test('banner embeds the helmet and the trophy as pixel art', () => {
   assert.match(svg, /<image [^>]*href="data:image\/png;base64,AAAA"/);
-  assert.match(svg, /image-rendering:pixelated/);
-  assert.match(svg, /<rect x="1" y="1" width="2" height="2"\/>/);
+  assert.match(svg, /<image [^>]*href="data:image\/png;base64,BBBB"/);
+  assert.equal(count(svg, 'image-rendering:pixelated'), 2);
 });
 
 test('banner has five start lights that light up in sequence and go out', () => {

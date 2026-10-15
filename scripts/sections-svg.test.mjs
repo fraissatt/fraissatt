@@ -53,7 +53,7 @@ test('power unit: one chip per technology, names escaped', () => {
 });
 
 const step = (place) => renderPodiumStepSvg({
-  place, name: 'a<b>', lang: 'Java', text: 'Projeto em Java sobre boas práticas de software',
+  place, name: 'a<b>', lang: 'Java', text: 'Projeto em Java sobre boas práticas de software', trophyBase64: 'CCCC',
 });
 const stepHeight = (svg) => Number(svg.match(/class="step"[^>]*height="([\d.]+)"/)[1]);
 
@@ -61,7 +61,7 @@ test('podium: steps get lower from 1st to 3rd, only the winner has a trophy', ()
   const [s1, s2, s3] = [1, 2, 3].map(step);
   assert.ok(stepHeight(s1) > stepHeight(s2));
   assert.ok(stepHeight(s2) > stepHeight(s3));
-  assert.match(s1, /class="trophy"/);
+  assert.match(s1, /<image class="trophy"[^>]*href="data:image\/png;base64,CCCC"/);
   assert.doesNotMatch(s2, /class="trophy"/);
   assert.doesNotMatch(s3, /class="trophy"/);
 });

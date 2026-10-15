@@ -28,7 +28,7 @@
   <img src="assets/sections/power-unit.en.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Data: PostgreSQL, SQL; Cloud: AWS; Tooling: Git, GitHub, Swagger." />
 </p>
 
-## 🏆 Podium - Featured projects
+## <img src="assets/art/trophy.png" height="32" alt="" /> Podium - Featured projects
 
 <table align="center">
   <tr valign="bottom">
@@ -50,9 +50,9 @@
 <p align="center">
   <img src="assets/art/helmet.png" width="178" alt="Pixel art of a yellow helmet with green and blue stripes" />
   &nbsp;&nbsp;
-  <img src="assets/art/trophy.svg" width="90" alt="Winner's trophy" />
+  <img src="assets/art/trophy.png" width="108" alt="Pixel art of a golden trophy with a red base" />
 </p>
-<p align="center"><sub>Pixel art helmet, inspired by Senna's · 🏆 Monaco: six wins for Ayrton Senna, the Grand Prix record</sub></p>
+<p align="center"><sub>Pixel art helmet, inspired by Senna's · <img src="assets/art/trophy.png" height="18" alt="" /> Monaco: six wins for Ayrton Senna, the Grand Prix record</sub></p>
 
 <table align="center">
   <tr>
@@ -67,7 +67,7 @@
   <img src="assets/animations/senna-s.svg" width="840" alt="Pixel art animation: a red and white race car driving through the Senna S, the first corners of the Interlagos circuit" />
 </p>
 
-<sub>Cars, helmet and animation are pixel art; the trophy and circuits are stylized illustrations, and circuit outlines are approximations.</sub>
+<sub>Cars, helmet, trophy and animation are pixel art; the circuits are stylized illustrations, and their outlines are approximations.</sub>
 
 ## ⏱️ Telemetry - Statistics
 

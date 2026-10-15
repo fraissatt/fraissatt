@@ -7,13 +7,12 @@ import { renderSennaScene } from './pixel-scene.mjs';
 // Static artwork: run by hand after changing the scene, the banner or the helmet/trophy art.
 export async function run({ root }) {
   const helmet = await readFile(path.join(root, 'assets/art/helmet.png'));
-  const trophySvg = await readFile(path.join(root, 'assets/art/trophy.svg'), 'utf8');
-  const trophyInner = trophySvg.replace(/^<svg[^>]*>\s*/, '').replace(/\s*<\/svg>\s*$/, '');
+  const trophy = await readFile(path.join(root, 'assets/art/trophy.png'));
 
   await mkdir(path.join(root, 'assets/animations'), { recursive: true });
   await writeFile(path.join(root, 'assets/animations/senna-s.svg'), renderSennaScene());
   await writeFile(path.join(root, 'assets/banner.svg'),
-    renderBanner({ helmetBase64: helmet.toString('base64'), trophyInner }));
+    renderBanner({ helmetBase64: helmet.toString('base64'), trophyBase64: trophy.toString('base64') }));
 }
 
 const thisFile = fileURLToPath(import.meta.url);
