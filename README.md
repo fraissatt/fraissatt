@@ -25,7 +25,7 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 ## ⚙️ Power Unit - Stack
 
 <p align="center">
-  <img src="assets/sections/power-unit.pt.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Dados: PostgreSQL, SQL; Cloud: AWS; Ferramentas: Git/GitHub, Swagger." />
+  <img src="assets/sections/power-unit.pt.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Dados: PostgreSQL, SQL; Cloud: AWS; Ferramentas: Git, GitHub, Swagger." />
 </p>
 
 ## 🏆 Podium - Projetos em destaque

@@ -151,3 +151,17 @@ New animations, all SMIL-based SVG (no scripts) so they play when GitHub shows t
 Source: `scripts/pixel-scene.mjs`, `scripts/banner-svg.mjs`; `scripts/generate-animations.mjs` writes both files
 (run by hand, not by the Action). Tests: `pixel-scene.test.mjs`, `banner-svg.test.mjs`. Animation playback was
 checked by rendering a frame about 3 s into the loop. Limitation: SMIL cannot honour prefers-reduced-motion.
+
+## Addendum 5 (2026-10-14): technology logos in the Power Unit card
+
+Approved by the user (including the download and brand colours). This supersedes the earlier "no logos" rule
+for the Power Unit chips only.
+
+- Source: Devicon 2.16.0 (MIT license) via cdn.jsdelivr.net, 11 SVGs. SQL and REST APIs have no logo of their
+  own, so they use generic icons drawn for this project. "Spring Boot" uses the Spring logo (no Spring Boot file
+  in that version); AWS uses the `original-wordmark` file. The Git/GitHub chip was split into Git and GitHub.
+- The downloaded files were treated as untrusted: fetched into an isolated folder, then reduced to `<g>`/`<path>`
+  with validated path data and normalised fills (`scripts/tech-logos.mjs`). Tests enforce an element allow-list,
+  no styles/scripts/hrefs, unique ids, balanced tags and a minimum fill brightness on the black card.
+- Dark brand colours are adjusted: near-black becomes light grey, other dark colours are lifted 40% toward white.
+- Logos are trademarks of their owners and appear only to indicate technologies used.

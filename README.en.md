@@ -25,7 +25,7 @@
 ## ⚙️ Power Unit - Stack
 
 <p align="center">
-  <img src="assets/sections/power-unit.en.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Data: PostgreSQL, SQL; Cloud: AWS; Tooling: Git/GitHub, Swagger." />
+  <img src="assets/sections/power-unit.en.svg" width="840" alt="Stack: Back-end: Java, Spring Boot, C#, REST APIs; Front-end: TypeScript, Angular, Dart; Data: PostgreSQL, SQL; Cloud: AWS; Tooling: Git, GitHub, Swagger." />
 </p>
 
 ## 🏆 Podium - Featured projects

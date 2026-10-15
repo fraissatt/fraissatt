@@ -6,7 +6,7 @@ const ITEMS = {
   chassis: ['TypeScript', 'Angular', 'Dart'],
   fuel: ['PostgreSQL', 'SQL'],
   aero: ['AWS'],
-  telemetry: ['Git/GitHub', 'Swagger'],
+  telemetry: ['Git', 'GitHub', 'Swagger'],
 };
 
 export const CONTENT = {

@@ -72,3 +72,15 @@ test('podium: shows the place number and escapes the name', () => {
   assert.match(svg, />a&lt;b&gt;</);
   assert.doesNotMatch(svg, /a<b>/);
 });
+
+test('power unit: every known technology chip carries a logo', () => {
+  const svg = renderPowerUnitSvg(categories, 'T');
+  assert.equal(count(svg, 'class="logo"'), count(svg, 'class="chip"'));
+});
+
+test('power unit: an unknown technology still gets a chip, just without a logo', () => {
+  const svg = renderPowerUnitSvg([{ name: 'X', label: 'y', items: ['Cobol 9000'] }], 'T');
+  assert.equal(count(svg, 'class="chip"'), 1);
+  assert.equal(count(svg, 'class="logo"'), 0);
+  assert.match(svg, />Cobol 9000</);
+});

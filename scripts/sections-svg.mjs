@@ -1,4 +1,5 @@
 import { FONT, STYLE, TYRES, escapeXml, frame, positionCell } from './stats-svg.mjs';
+import { logoFor } from './tech-logos.mjs';
 
 const WIDTH = 840;
 const RIGHT = WIDTH - 24;
@@ -45,6 +46,7 @@ export function renderStintsSvg(stints, title) {
 }
 
 const CHIP_PAD = 10;
+const LOGO_SIZE = 16;
 const CHAR_W = 7.4;
 
 export function renderPowerUnitSvg(categories, title) {
@@ -52,9 +54,14 @@ export function renderPowerUnitSvg(categories, title) {
   const rows = categories.map((category) => {
     let x = 250;
     const chips = category.items.map((item) => {
-      const width = Math.round(item.length * CHAR_W + CHIP_PAD * 2);
-      const chip = `<rect class="chip" x="${x}" y="${y + 9}" width="${width}" height="26" rx="4"/>` +
-        `<text class="chiptxt" x="${x + CHIP_PAD}" y="${y + 26}">${escapeXml(item)}</text>`;
+      const logo = logoFor(item);
+      const textX = CHIP_PAD + (logo ? LOGO_SIZE + 6 : 0);
+      const width = Math.round(textX + item.length * CHAR_W + CHIP_PAD);
+      const icon = logo
+        ? `<svg class="logo" x="${x + CHIP_PAD - 2}" y="${y + 14}" width="${LOGO_SIZE}" height="${LOGO_SIZE}" viewBox="${logo.viewBox}">${logo.body}</svg>`
+        : '';
+      const chip = `<rect class="chip" x="${x}" y="${y + 9}" width="${width}" height="26" rx="4"/>` + icon +
+        `<text class="chiptxt" x="${x + textX}" y="${y + 26}">${escapeXml(item)}</text>`;
       x += width + 8;
       return chip;
     }).join('');
