@@ -177,3 +177,12 @@ The source image was a compressed upscale with no clean block size. The pixel gr
 96x96 grid (7.708 px cells, origin 6.5 px / 1.0 px, chosen by minimising colour variance inside cells), sampling
 each cell's centre colour, merging near-identical colours (12 colours remain), flood-filling the background from the
 edges and dropping grey anti-alias fringe cells. Result: 36x48 native pixels, scaled 9x with nearest-neighbour.
+
+## Addendum 7 (2026-10-14): driver card
+
+The user's pixel-art driver card (`Downloads/fraissat_12_v4.png`: "FRAISSAT 12", portrait, "CODE", a red F1 car) was
+copied unchanged to `assets/art/card.png` (588x904, 38 colours, clean 4 px blocks) and placed in the Driver Profile
+section of both READMEs as a two-column table: card on the left (294 px, exactly half size so pixels stay crisp),
+the About text on the right. The blue card background is part of the design and was kept. It contains the user's
+portrait; publishing it is the user's choice. Test: `art.test.mjs` checks it is a valid PNG under 1 MB; the README
+test checks both READMEs reference it.

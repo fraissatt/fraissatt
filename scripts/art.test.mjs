@@ -45,3 +45,11 @@ for (const name of ['ferrari', 'mclaren', 'helmet', 'trophy']) {
     assert.equal(png[25], 6, 'colour type 6 = RGBA, so the background can be transparent');
   });
 }
+
+test('assets/art/card.png is a valid pixel-art PNG (its blue card background is part of the design)', () => {
+  const png = readFileSync(path.join(root, 'assets/art/card.png'));
+  assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10], 'PNG signature');
+  assert.equal(png.toString('ascii', 12, 16), 'IHDR');
+  assert.ok(png.readUInt32BE(16) >= 300, 'wide enough to stay crisp');
+  assert.ok(png.length < 1024 * 1024, 'under 1 MB');
+});

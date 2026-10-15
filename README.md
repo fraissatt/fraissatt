@@ -8,6 +8,13 @@
 
 ## 🏁 Driver Profile - Sobre mim
 
+<table>
+  <tr>
+    <td valign="top" width="300">
+      <img src="assets/art/card.png" width="294" alt="Cartão de piloto em pixel art: Fraissat, número 12, com o retrato de João Vítor, a palavra Code e um carro de F1 vermelho visto de cima" />
+    </td>
+    <td valign="top">
+
 Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** (desde 2023), com foco em aplicações web, liderança em projetos acadêmicos e desenvolvimento full stack. Estagiei na matriz da **ZEISS**, em Oberkochen (Alemanha), e atuo com metrologia, transformação digital e inovação tecnológica.
 
 - 🎓 Engenharia de Software, Faculdade SENAI Fatesg
@@ -15,6 +22,10 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 - 🗣️ Português · Inglês (fluente, certificação ECCE) · Alemão (intermediário)
 - 📜 AWS Academy Cloud Foundations · Curso de Metrologia (INMETRO)
 - 📍 Goiânia, Brasil
+
+    </td>
+  </tr>
+</table>
 
 ## 🛞 Stints - Experiência
 

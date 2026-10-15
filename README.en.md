@@ -8,6 +8,13 @@
 
 ## 🏁 Driver Profile - About me
 
+<table>
+  <tr>
+    <td valign="top" width="300">
+      <img src="assets/art/card.png" width="294" alt="Pixel art driver card: Fraissat, number 12, with João Vítor's portrait, the word Code and a red F1 car seen from above" />
+    </td>
+    <td valign="top">
+
 8th-term Software Engineering student at **Faculdade SENAI Fatesg** (since 2023), focused on web applications, project leadership and full stack development. I completed an international internship at **ZEISS** headquarters in Oberkochen, Germany, and I work at the intersection of metrology, digital transformation and technological innovation.
 
 - 🎓 Software Engineering, Faculdade SENAI Fatesg
@@ -15,6 +22,10 @@
 - 🗣️ Portuguese · English (fluent, ECCE certified) · German (intermediate)
 - 📜 AWS Academy Cloud Foundations · Metrology course (INMETRO)
 - 📍 Goiânia, Brazil
+
+    </td>
+  </tr>
+</table>
 
 ## 🛞 Stints - Experience
 

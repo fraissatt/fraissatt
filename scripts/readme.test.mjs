@@ -9,7 +9,7 @@ const read = (name) => readFileSync(path.join(root, name), 'utf8');
 const pt = read('README.md');
 const en = read('README.en.md');
 const ART = [
-  'assets/art/ferrari.png', 'assets/art/mclaren.png', 'assets/art/helmet.png', 'assets/art/trophy.png',
+  'assets/art/ferrari.png', 'assets/art/mclaren.png', 'assets/art/helmet.png', 'assets/art/trophy.png', 'assets/art/card.png',
   'assets/animations/senna-s.svg',
   ...['track-interlagos', 'track-monza', 'track-suzuka', 'track-monaco']
     .map((name) => `assets/art/${name}.svg`),
