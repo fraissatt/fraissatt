@@ -15,12 +15,12 @@
     </td>
     <td valign="top">
 
-Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** (desde 2023), com foco em aplicações web, liderança em projetos acadêmicos e desenvolvimento full stack. Estagiei na matriz da **ZEISS**, em Oberkochen (Alemanha), e atuo com metrologia, transformação digital e inovação tecnológica.
+Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** (desde 2023), com foco em aplicações web, liderança em projetos acadêmicos e desenvolvimento full stack. Estagiei na matriz da **ZEISS**, em Oberkochen (Alemanha), e tenho interesse em transformação digital e inovação tecnológica.
 
 - 🎓 Engenharia de Software, Faculdade SENAI Fatesg
 - 🌍 Estágio internacional na ZEISS IQS, Alemanha
 - 🗣️ Português · Inglês (fluente, certificação ECCE) · Alemão (intermediário)
-- 📜 AWS Academy Cloud Foundations · Curso de Metrologia (INMETRO)
+- 📜 AWS Academy Cloud Foundations
 - 📍 Goiânia, Brasil
 
     </td>

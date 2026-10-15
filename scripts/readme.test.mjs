@@ -55,3 +55,12 @@ test('READMEs contain no placeholders, emails or phone numbers', () => {
     assert.doesNotMatch(text, /\(\d{2}\)\s?\d{4,5}-?\d{4}/);
   }
 });
+
+test('the About section does not mention metrology', () => {
+  for (const text of [pt, en]) {
+    const start = text.indexOf('## 🏁 Driver Profile');
+    const end = text.indexOf('## 🛞 Stints');
+    assert.ok(start >= 0 && end > start);
+    assert.doesNotMatch(text.slice(start, end), /metrolog/i);
+  }
+});

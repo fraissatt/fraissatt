@@ -15,12 +15,12 @@
     </td>
     <td valign="top">
 
-8th-term Software Engineering student at **Faculdade SENAI Fatesg** (since 2023), focused on web applications, project leadership and full stack development. I completed an international internship at **ZEISS** headquarters in Oberkochen, Germany, and I work at the intersection of metrology, digital transformation and technological innovation.
+8th-term Software Engineering student at **Faculdade SENAI Fatesg** (since 2023), focused on web applications, project leadership and full stack development. I completed an international internship at **ZEISS** headquarters in Oberkochen, Germany, and I am interested in digital transformation and technological innovation.
 
 - 🎓 Software Engineering, Faculdade SENAI Fatesg
 - 🌍 International internship at ZEISS IQS, Germany
 - 🗣️ Portuguese · English (fluent, ECCE certified) · German (intermediate)
-- 📜 AWS Academy Cloud Foundations · Metrology course (INMETRO)
+- 📜 AWS Academy Cloud Foundations
 - 📍 Goiânia, Brazil
 
     </td>

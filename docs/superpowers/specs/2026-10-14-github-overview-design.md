@@ -195,3 +195,11 @@ contributor of each), so the cards show `owner/name`. Descriptions come only fro
 description "Projeto de TCC para o laboratorio de metrologia do Senai Goias" and primary language Java;
 dfc-planner has no description and its languages are TypeScript and Python, so its text states only that.
 Tests check the requested URLs and that every name fits the step card.
+
+## Addendum 9 (2026-10-14): About section without metrology
+
+At the user's request the About section no longer mentions metrology (the sentence "e atuo com metrologia" and the
+bullet "Curso de Metrologia (INMETRO)", plus their English counterparts). Removing only the phrase would have left an
+ungrammatical sentence, so it now ends "e tenho interesse em transformação digital e inovação tecnológica" (the Lattes
+CV states this interest). Metrology still appears in the Stints card (employer names and ZEISS PILOT) and in the
+TCC podium description; those were not part of the request. Test: the About section must not match /metrolog/i.
