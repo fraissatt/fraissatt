@@ -33,10 +33,10 @@ export const CONTENT = {
     podium: [
       { place: 1, name: 'metas-app', lang: 'TypeScript', url: `${REPO}metas-app`,
         text: 'Aplicação web em TypeScript, publicada na Vercel.' },
-      { place: 2, name: 'CEM-Senai-Zeiss', lang: 'JavaScript', url: `${REPO}CEM-Senai-Zeiss`,
-        text: 'Projeto em JavaScript ligado ao Centro de Metrologia SENAI ZEISS.' },
-      { place: 3, name: 'boas-praticas-software', lang: 'Java', url: `${REPO}boas-praticas-software`,
-        text: 'Projeto em Java sobre boas práticas de desenvolvimento de software.' },
+      { place: 2, name: 'GabrielVianaNunes/TCC', lang: 'Java', url: 'https://github.com/GabrielVianaNunes/TCC',
+        text: 'Projeto de TCC para o laboratório de metrologia do Senai Goiás.' },
+      { place: 3, name: 'ThiagoFalcone/dfc-planner', lang: 'TypeScript', url: 'https://github.com/ThiagoFalcone/dfc-planner',
+        text: 'Projeto em TypeScript e Python.' },
     ],
   },
   en: {
@@ -62,10 +62,10 @@ export const CONTENT = {
     podium: [
       { place: 1, name: 'metas-app', lang: 'TypeScript', url: `${REPO}metas-app`,
         text: 'TypeScript web application, deployed on Vercel.' },
-      { place: 2, name: 'CEM-Senai-Zeiss', lang: 'JavaScript', url: `${REPO}CEM-Senai-Zeiss`,
-        text: 'JavaScript project tied to the SENAI ZEISS Metrology Center.' },
-      { place: 3, name: 'boas-praticas-software', lang: 'Java', url: `${REPO}boas-praticas-software`,
-        text: 'Java project on software development best practices.' },
+      { place: 2, name: 'GabrielVianaNunes/TCC', lang: 'Java', url: 'https://github.com/GabrielVianaNunes/TCC',
+        text: 'Capstone (TCC) project for the SENAI Goiás metrology laboratory.' },
+      { place: 3, name: 'ThiagoFalcone/dfc-planner', lang: 'TypeScript', url: 'https://github.com/ThiagoFalcone/dfc-planner',
+        text: 'TypeScript and Python project.' },
     ],
   },
 };

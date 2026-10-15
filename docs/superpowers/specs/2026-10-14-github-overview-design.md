@@ -186,3 +186,12 @@ section of both READMEs as a two-column table: card on the left (294 px, exactly
 the About text on the right. The blue card background is part of the design and was kept. It contains the user's
 portrait; publishing it is the user's choice. Test: `art.test.mjs` checks it is a valid PNG under 1 MB; the README
 test checks both READMEs reference it.
+
+## Addendum 8 (2026-10-14): podium 2nd and 3rd place
+
+At the user's request the podium is now: 1st `fraissatt/metas-app`, 2nd `GabrielVianaNunes/TCC`,
+3rd `ThiagoFalcone/dfc-planner`. The latter two belong to other accounts (both public; `fraissatt` is a listed
+contributor of each), so the cards show `owner/name`. Descriptions come only from public GitHub data: TCC has the
+description "Projeto de TCC para o laboratorio de metrologia do Senai Goias" and primary language Java;
+dfc-planner has no description and its languages are TypeScript and Python, so its text states only that.
+Tests check the requested URLs and that every name fits the step card.

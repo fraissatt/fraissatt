@@ -43,9 +43,9 @@
 
 <table align="center">
   <tr valign="bottom">
-    <td><a href="https://github.com/fraissatt/CEM-Senai-Zeiss"><img src="assets/sections/podium-2.en.svg" alt="Place 2: CEM-Senai-Zeiss (JavaScript). JavaScript project tied to the SENAI ZEISS Metrology Center." /></a></td>
+    <td><a href="https://github.com/GabrielVianaNunes/TCC"><img src="assets/sections/podium-2.en.svg" alt="Place 2: GabrielVianaNunes/TCC (Java). Capstone (TCC) project for the SENAI Goiás metrology laboratory." /></a></td>
     <td><a href="https://github.com/fraissatt/metas-app"><img src="assets/sections/podium-1.en.svg" alt="Place 1: metas-app (TypeScript). TypeScript web application, deployed on Vercel." /></a></td>
-    <td><a href="https://github.com/fraissatt/boas-praticas-software"><img src="assets/sections/podium-3.en.svg" alt="Place 3: boas-praticas-software (Java). Java project on software development best practices." /></a></td>
+    <td><a href="https://github.com/ThiagoFalcone/dfc-planner"><img src="assets/sections/podium-3.en.svg" alt="Place 3: ThiagoFalcone/dfc-planner (TypeScript). TypeScript and Python project." /></a></td>
   </tr>
 </table>
 <p align="center"><sub>▶ <a href="https://metas-app-flax.vercel.app">metas-app: view demo</a></sub></p>

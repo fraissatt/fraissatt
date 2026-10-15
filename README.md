@@ -43,9 +43,9 @@ Cursando o 8º período de Engenharia de Software na **Faculdade SENAI Fatesg** 
 
 <table align="center">
   <tr valign="bottom">
-    <td><a href="https://github.com/fraissatt/CEM-Senai-Zeiss"><img src="assets/sections/podium-2.pt.svg" alt="2º lugar: CEM-Senai-Zeiss (JavaScript). Projeto em JavaScript ligado ao Centro de Metrologia SENAI ZEISS." /></a></td>
+    <td><a href="https://github.com/GabrielVianaNunes/TCC"><img src="assets/sections/podium-2.pt.svg" alt="2º lugar: GabrielVianaNunes/TCC (Java). Projeto de TCC para o laboratório de metrologia do Senai Goiás." /></a></td>
     <td><a href="https://github.com/fraissatt/metas-app"><img src="assets/sections/podium-1.pt.svg" alt="1º lugar: metas-app (TypeScript). Aplicação web em TypeScript, publicada na Vercel." /></a></td>
-    <td><a href="https://github.com/fraissatt/boas-praticas-software"><img src="assets/sections/podium-3.pt.svg" alt="3º lugar: boas-praticas-software (Java). Projeto em Java sobre boas práticas de desenvolvimento de software." /></a></td>
+    <td><a href="https://github.com/ThiagoFalcone/dfc-planner"><img src="assets/sections/podium-3.pt.svg" alt="3º lugar: ThiagoFalcone/dfc-planner (TypeScript). Projeto em TypeScript e Python." /></a></td>
   </tr>
 </table>
 <p align="center"><sub>▶ <a href="https://metas-app-flax.vercel.app">metas-app: ver demo</a></sub></p>

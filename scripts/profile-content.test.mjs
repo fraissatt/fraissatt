@@ -61,3 +61,22 @@ test('no em dash anywhere in the READMEs, SVGs or content data', () => {
     assert.ok(!readFileSync(file, 'utf8').includes('—'), `em dash in ${path.relative(root, file)}`);
   }
 });
+
+test('the podium ranks the requested repositories 2nd and 3rd', () => {
+  for (const lang of ['pt', 'en']) {
+    const [first, second, third] = CONTENT[lang].podium;
+    assert.equal(first.url, 'https://github.com/fraissatt/metas-app');
+    assert.equal(second.url, 'https://github.com/GabrielVianaNunes/TCC');
+    assert.equal(third.url, 'https://github.com/ThiagoFalcone/dfc-planner');
+  }
+});
+
+test('every podium name matches its repository URL and fits the step card', () => {
+  for (const lang of ['pt', 'en']) {
+    for (const p of CONTENT[lang].podium) {
+      assert.ok(p.url.startsWith('https://github.com/'), p.url);
+      assert.ok(p.url.endsWith(`/${p.name.split('/').pop()}`), `${p.name} vs ${p.url}`);
+      assert.ok(p.name.length * 8.4 + 20 <= 262, `${p.name} is too wide for the step card`);
+    }
+  }
+});
